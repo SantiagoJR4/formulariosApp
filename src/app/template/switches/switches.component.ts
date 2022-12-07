@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 export class SwitchesComponent {
 
   persona={
-    genero:'',
-    notifiaciones:false
+    genero:'F',
+    notificaciones:true
   }
+  terminosYCondiciones:boolean=false;
 
 }
